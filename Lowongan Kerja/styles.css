@@ -125,23 +125,23 @@ button, input, select, textarea {
   transition: all 0.3s ease;
 }
 
-.tombol-masuk {
+.tombol-masuk a {
   background-color: transparent;
   border: 1px solid var(--warna-border);
   color: var(--warna-teks);
 }
 
-.tombol-masuk:hover {
+.tombol-masuk a:hover {
   background-color: var(--warna-sekunder);
 }
 
-.tombol-daftar {
+.tombol-daftar a {
   background-color: var(--warna-primer);
   border: 1px solid var(--warna-primer);
-  color: white !important;
+  color: white;
 }
 
-.tombol-daftar:hover {
+.tombol-daftar a:hover {
   background-color: var(--warna-primer-hover);
   border-color: var(--warna-primer-hover);
 }
